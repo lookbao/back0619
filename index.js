@@ -1,12 +1,12 @@
 ﻿const FILE_PATH = process.env.FILE_PATH || './temp';
 const projectPageURL = process.env.URL || '';    // 填写项目域名可自动访问保活，例如：https://www.google.com
 const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;// 自动访问间隔时间（2分钟）
-const UUID = process.env.UUID || '23dc9018-b3b7-42fb-834c-1b327be4117a';
+const UUID = process.env.UUID || 'ec9e838c-109f-4f12-8b30-710a9a9b4a1f';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';  // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '';             // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';                   // 哪吒客户端密钥
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'wefwe.kgfkyfd.eu.org';// 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"6d324bacb114ecfd5ba33954743869b5","TunnelSecret":"6WY7JKECF731XIbwJloIrQbYDBkhwSYRtP1HM89OTYg=","TunnelID":"c6301c39-5940-4a64-818c-cfbe0c20cf30"}';// 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'fvsr.kgfkyfd.eu.org';// 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"6d324bacb114ecfd5ba33954743869b5","TunnelSecret":"H4PZ4LXpsI1E30056ZVI9ZsupsXU1YdoZ5TFIG4nQQE=","TunnelID":"584c3bd9-bb93-4323-a0af-ee2359d84f50"}';// 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'government.se';                // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                        // 节点端口，一般不用改
 const NAME = process.env.NAME || 'fly';                         // 节点名称
